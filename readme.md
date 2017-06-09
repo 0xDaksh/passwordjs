@@ -1,6 +1,8 @@
 # Passwordjs
-
-### A Layer of Abstraction over Encryption Algorithms which allows easy generation of Hashes from Strings and Comparison of Passwords to Hashes.
+[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](https://js.org/)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Dakssh/passwordjs)
+[![forthebadge](http://forthebadge.com/images/badges/check-it-out.svg)](https://www.npmjs.com/package/passwordjs)
+#### A Layer of Abstraction over Encryption Algorithms which allows easy generation of Hashes from Strings and Comparison of Passwords to Hashes.
 
 This Module basically contains Multiple Encryption Algorithms which you can then use directly with a single helper Function which Returns a Promise Object that contains either your hash or an error message. The API is pretty simple with just 1 Method that allows easy switching between algorithms.
 
@@ -49,13 +51,14 @@ pwd.encrypt('stringToEncrypt', 'sha256').then(hash => {
 
     Example 
 
-    ```javascript
-        pwd.encrypt(string, algorithm).then(e => {
-            console.log(e) // hash-here
-        }).catch(er => {
-            throw er // err here
-        })
-    ```
+```javascript
+var pwd = require('passwordjs')
+pwd.encrypt(string, algorithm).then(hash => {
+    console.log(hash)
+}).catch(err => {
+    throw err // your hash
+})
+```
 
 ### Compare
     The Compare Method allows you to easily compare the Password along all algorithms with the following parameters as Input
@@ -72,13 +75,14 @@ pwd.encrypt('stringToEncrypt', 'sha256').then(hash => {
 
     Example 
     
-    ```javascript
-        pwd.compare(string, hash, algorithm).then(e => {
-            console.log(e) // true / false
-        }).catch(er => {
-            throw er // err here
-        })
-    ```
+```javascript
+    var pwd = require('passwordjs')
+    pwd.compare(string, hash, algorithm).then(e => {
+        console.log(e) // Boolean True / False
+    }).catch(er => {
+        console.log(er)
+    })
+```
 
 # License
 
