@@ -1,6 +1,6 @@
 {
   "name": "passwordjs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A Module that can perform multiple encrypting algorithms and can verify passwords from Hashes Easily.",
   "main": "index.js",
   "scripts": {
