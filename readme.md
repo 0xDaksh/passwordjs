@@ -1,6 +1,6 @@
 # Passwordjs
 
-### A Layer of Abstraction over Encryption Algorithms which allows easy generation of Hashes from Strings
+### A Layer of Abstraction over Encryption Algorithms which allows easy generation of Hashes from Strings and Comparison of Passwords to Hashes.
 
 This Module basically contains Multiple Encryption Algorithms which you can then use directly with a single helper Function which Returns a Promise Object that contains either your hash or an error message. The API is pretty simple with just 1 Method that allows easy switching between algorithms.
 
