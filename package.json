@@ -1,0 +1,27 @@
+{
+  "name": "passwordjs",
+  "version": "0.0.1",
+  "description": "A Module that can perform multiple encrypting algorithms and can verify passwords",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dakssh/passwordjs.git"
+  },
+  "keywords": [
+    "passwordjs",
+    "password",
+    "encryption",
+    "bcrypt",
+    "md5",
+    "sha"
+  ],
+  "author": "Daksh Miglani <hello@dak.sh> (https://dak.sh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dakssh/passwordjs/issues"
+  },
+  "homepage": "https://github.com/Dakssh/passwordjs#readme"
+}
