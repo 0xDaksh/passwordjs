@@ -40,18 +40,18 @@ pwd.encrypt('stringToEncrypt', 'sha256').then(hash => {
 # API
 
 ### Encrypt
-    The Encrypt Method allows you to easily encrypt the Password with the following parameters as Input
+The Encrypt Method allows you to easily encrypt the Password with the following parameters as Input
 
-    - Password String
-    - Algorithm
+- Password String
+- Algorithm
 
-    It Returns The Following
+It Returns The Following
     
-    - Promise Object
-    - Hash
-    - Error
+- Promise Object
+- Hash
+- Error
 
-    Example 
+Example 
 
 ```javascript
 var pwd = require('passwordjs')
@@ -63,19 +63,19 @@ pwd.encrypt(string, algorithm).then(hash => {
 ```
 
 ### Compare
-    The Compare Method allows you to easily compare the Password along all algorithms with the following parameters as Input
+The Compare Method allows you to easily compare the Password along all algorithms with the following parameters as Input
 
-    - Password String
-    - Hash
-    - Algorithm
+- Password String
+- Hash
+- Algorithm
 
-    It Returns The Following
+It Returns The Following
     
-    - Promise Object
-    - Response (Boolean)
-    - Error
+- Promise Object
+- Response (Boolean)
+- Error
 
-    Example 
+Example 
     
 ```javascript
     var pwd = require('passwordjs')
