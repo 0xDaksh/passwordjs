@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/Dakssh/passwordjs/issues"
   },
-  "homepage": "https://github.com/Dakssh/passwordjs#readme"
+  "homepage": "https://github.com/Dakssh/passwordjs#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "md5": "^2.2.1",
+    "sha.js": "^2.4.8"
+  }
 }
