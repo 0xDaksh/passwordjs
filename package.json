@@ -1,6 +1,6 @@
 {
   "name": "passwordjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Module that can perform multiple encrypting algorithms and can verify passwords",
   "main": "index.js",
   "scripts": {
