@@ -1,7 +1,7 @@
 {
   "name": "passwordjs",
-  "version": "0.0.3",
-  "description": "A Module that can perform multiple encrypting algorithms and can verify passwords",
+  "version": "0.0.4",
+  "description": "A Module that can perform multiple encrypting algorithms and can verify passwords from Hashes Easily.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
