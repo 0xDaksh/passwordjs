@@ -1,7 +1,9 @@
 # Passwordjs
+
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](https://js.org/)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Dakssh/passwordjs)
 [![forthebadge](http://forthebadge.com/images/badges/check-it-out.svg)](https://www.npmjs.com/package/passwordjs)
+
 #### A Layer of Abstraction over Encryption Algorithms which allows easy generation of Hashes from Strings and Comparison of Passwords to Hashes.
 
 This Module basically contains Multiple Encryption Algorithms which you can then use directly with a single helper Function which Returns a Promise Object that contains either your hash or an error message. The API is pretty simple with just 1 Method that allows easy switching between algorithms.
