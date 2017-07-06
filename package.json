@@ -1,6 +1,6 @@
 {
   "name": "passwordjs",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A Module that can perform multiple encrypting algorithms and can verify passwords from Hashes Easily.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dakssh/passwordjs.git"
+    "url": "git+https://github.com/DakshMiglani/passwordjs.git"
   },
   "keywords": [
     "passwordjs",
@@ -21,9 +21,9 @@
   "author": "Daksh Miglani <hello@dak.sh> (https://dak.sh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Dakssh/passwordjs/issues"
+    "url": "https://github.com/DakshMiglani/passwordjs/issues"
   },
-  "homepage": "https://github.com/Dakssh/passwordjs#readme",
+  "homepage": "https://github.com/DakshMiglani/passwordjs#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "crypto": "0.0.3",
