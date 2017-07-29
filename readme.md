@@ -17,7 +17,19 @@ This Module basically contains Multiple Encryption Algorithms which you can then
 - MD5
 
 ## Cli Example
+```bash
+encrypt
 
+ |  _ \ __ _ ___ _____      _____  _ __ __| |   | / ___|
+ | |_) / _` / __/ __\ \ /\ / / _ \| '__/ _` |_  | \___ \
+ |  __/ (_| \__ \__ \\ V  V / (_) | | | (_| | |_| |___) |
+ |_|   \__,_|___/___/ \_/\_/ \___/|_|  \__,_|\___/|____/
+
+? Enter The String to Be Encrypted gg
+? Choose The Algorithm to encrypt with. bcrypt
+
+ $2a$10$GzbDoVx64TCpqwMQDK1dA.x.veGVvZLGKON10zdBW690gpOxDuPwe
+```
 ## Hash Example
 ```javascript
 var pwd = require('passwordjs')
