@@ -16,6 +16,8 @@ This Module basically contains Multiple Encryption Algorithms which you can then
 - Sha512
 - MD5
 
+## Cli Example
+
 ## Hash Example
 ```javascript
 var pwd = require('passwordjs')
