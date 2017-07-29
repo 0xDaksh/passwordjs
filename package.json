@@ -29,7 +29,8 @@
   "homepage": "https://github.com/DakshMiglani/passwordjs#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "commander": "^2.11.0",
     "crypto": "0.0.3",
     "md5": "^2.2.1"
-   }
+  }
 }
