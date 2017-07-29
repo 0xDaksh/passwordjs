@@ -6,7 +6,7 @@
 
 #### A Layer of Abstraction over Encryption Algorithms which allows easy generation of Hashes from Strings and Comparison of Passwords to Hashes.
 
-This Module basically contains Multiple Encryption Algorithms which you can then use directly with a single helper Function which Returns a Promise Object that contains either your hash or an error message. The API is pretty simple with just 1 Method that allows easy switching between algorithms.
+This Module basically contains Multiple Encryption Algorithms which you can then use directly with a single helper Function which Returns a Promise Object that contains either your hash or an error message. The API is pretty simple with just 1 Method that allows easy switching between algorithms and the CLI allows you to encrypt stuff easily often without writing code.
 
 
 ## Supported Algorithms
@@ -17,7 +17,10 @@ This Module basically contains Multiple Encryption Algorithms which you can then
 - MD5
 
 ## Cli Example
+
 ```bash
+npm i --global passwordjs
+
 encrypt
 
  |  _ \ __ _ ___ _____      _____  _ __ __| |   | / ___|
