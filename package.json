@@ -29,7 +29,13 @@
   "homepage": "https://github.com/DakshMiglani/passwordjs#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "chalk": "^2.0.1",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
     "crypto": "0.0.3",
+    "figlet": "^1.2.0",
+    "inquirer": "^3.2.1",
+    "inquirer-select-line": "^1.1.1",
     "md5": "^2.2.1"
   }
 }
